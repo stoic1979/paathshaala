@@ -28,20 +28,16 @@ class Sidebar extends React.Component {
                 <li><a href="/Principal">Principal</a></li>
               </ul>
             </li>
-            <li><a href="/UserManagement"> <i class="icon-form"></i>User Management                             </a></li>
-            <li><a href="charts.html"> <i class="fa fa-bar-chart"></i>Charts                             </a></li>
+            <li><a href="/UserManagement"> <i class="icon-form"></i>Transport Management                             </a></li>
+            <li><a href="charts.html"> <i class="fa fa-bar-chart"></i>Reports                             </a></li>
             <li><a href="tables.html"> <i class="icon-grid"></i>Tables                             </a></li>
 
-            <li><a href="login.html"> <i class="icon-interface-windows"></i>Login page                             </a></li>
-            <li> <a href="#"> <i class="icon-mail"></i>Demo
-                <div class="badge badge-warning">6 New</div></a></li>
           </ul>
         </div>
         <div class="admin-menu">
           <h5 class="sidenav-heading">Options</h5>
           <ul id="side-admin-menu" class="side-menu list-unstyled"> 
-            <li> <a href="#"> <i class="icon-flask"> </i>Settings
-                <div class="badge badge-info">Special</div></a></li>
+            <li> <a href="#"> <i class="icon-flask"> </i>Settings</a></li>
             <li> <a href=""> <i class="icon-flask"> </i>Profile</a></li>
             <li> <a href=""> <i class="icon-picture"> </i>Logout</a></li>
           </ul>
