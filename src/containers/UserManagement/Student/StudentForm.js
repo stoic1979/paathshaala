@@ -1,8 +1,8 @@
 import React from 'react';
 
-import {openTab} from '../utils/helpers';
+import {openTab} from '../../../utils/helpers';
 
-class Student extends React.Component {
+class StudentForm extends React.Component {
 
 
   componentDidMount() {
@@ -16,7 +16,7 @@ class Student extends React.Component {
         <div class="container-fluid">
     <br />
     <div class="page-header">
-        <a href="/users/student/list" class="btn btn-primary">View All Students</a>
+        <a href="/Student_list" class="btn btn-primary">View All Students</a>
     </div>
     <br />
     <div class="card">
@@ -183,4 +183,4 @@ class Student extends React.Component {
     }
 }
 
-export default Student;
+export default StudentForm;

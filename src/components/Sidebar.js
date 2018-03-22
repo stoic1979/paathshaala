@@ -23,7 +23,7 @@ class Sidebar extends React.Component {
             <li><a href="/"> <i class="icon-home"></i>Dashboard                             </a></li>
             <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>User Management</a>
               <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
-                <li><a href="/Student">Student</a></li>
+                <li><a href="/Student_list">Student</a></li>
                 <li><a href="/Teacher">Teacher</a></li>
                 <li><a href="/Principal">Principal</a></li>
               </ul>
