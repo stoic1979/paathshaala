@@ -16,7 +16,7 @@ class Student extends React.Component {
         <div class="container-fluid">
     <br />
     <div class="page-header">
-        <a routerLink="/users/student/list" class="btn btn-primary">View All Students</a>
+        <a href="/users/student/list" class="btn btn-primary">View All Students</a>
     </div>
     <br />
     <div class="card">
