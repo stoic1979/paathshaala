@@ -1,6 +1,8 @@
 import React from 'react';
 
 import {openTab} from '../../../utils/helpers';
+import { Link } from 'react-router-dom';
+
 
 class StudentForm extends React.Component {
 
@@ -16,7 +18,7 @@ class StudentForm extends React.Component {
         <div class="container-fluid">
     <br />
     <div class="page-header">
-        <a href="/Student_list" class="btn btn-primary">View All Students</a>
+        <Link to="/Student_list" class="btn btn-primary"> View All Students </Link>
     </div>
     <br />
     <div class="card">

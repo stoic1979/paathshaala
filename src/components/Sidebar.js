@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Sidebar extends React.Component {
   render() {
@@ -20,12 +21,12 @@ class Sidebar extends React.Component {
         <div class="main-menu">
           <h5 class="sidenav-heading">Main</h5>
           <ul id="side-main-menu" class="side-menu list-unstyled">                  
-            <li><a href="/"> <i class="icon-home"></i>Dashboard                             </a></li>
+            <li><Link to="/"> <i class="icon-home"></i>Dashboard                             </Link></li>
             <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>User Management</a>
               <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
-                <li><a href="/Student_list">Student</a></li>
-                <li><a href="/Teacher">Teacher</a></li>
-                <li><a href="/Principal">Principal</a></li>
+                <li><Link to="/Student_list">Student</Link></li>
+                <li><Link to="/Teacher">Teacher</Link></li>
+                <li><Link to="/Principal">Principal</Link></li>
               </ul>
             </li>
             <li><a href="/UserManagement"> <i class="icon-form"></i>Transport Management                             </a></li>
