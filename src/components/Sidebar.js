@@ -38,13 +38,12 @@ class Sidebar extends React.Component {
           </ul>
         </div>
         <div class="admin-menu">
-          <h5 class="sidenav-heading">Second menu</h5>
+          <h5 class="sidenav-heading">Options</h5>
           <ul id="side-admin-menu" class="side-menu list-unstyled"> 
-            <li> <a href="#"> <i class="icon-screen"> </i>Demo</a></li>
-            <li> <a href="#"> <i class="icon-flask"> </i>Demo
+            <li> <a href="#"> <i class="icon-flask"> </i>Settings
                 <div class="badge badge-info">Special</div></a></li>
-            <li> <a href=""> <i class="icon-flask"> </i>Demo</a></li>
-            <li> <a href=""> <i class="icon-picture"> </i>Demo</a></li>
+            <li> <a href=""> <i class="icon-flask"> </i>Profile</a></li>
+            <li> <a href=""> <i class="icon-picture"> </i>Logout</a></li>
           </ul>
         </div>
       </div>
