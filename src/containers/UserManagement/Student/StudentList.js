@@ -16,7 +16,7 @@ class StudentList extends React.Component {
     return (
         <div>
           <div class="container-fluid">
-          <br />
+          <br /><br />
     <div class="page-header">
         <Link to="/Student_form" class="btn btn-primary"> Add New Student </Link>&nbsp;
         <a href="#" class="btn btn-primary" >Search Student</a>&nbsp;
@@ -26,7 +26,7 @@ class StudentList extends React.Component {
     <div class="card">
         <div id="search">
             <div class="card" id="search_form">
-                <form>
+                <form class="form">
                     <h3 class="tab_title">Search Student</h3>
                     <div class="form-group row">
                         <label class="col-2 col-form-label">Search By Name</label>
@@ -41,7 +41,7 @@ class StudentList extends React.Component {
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-2 col-form-label">Search BY Standard</label>
+                        <label class="col-2 col-form-label">Search By Standard</label>
                         <div class="col-10">
                             <select class="form-control" formControlName="standard" placeholder="Standard" >
                                 <option value="nursery" selected>Nursery</option>

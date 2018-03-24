@@ -13,7 +13,7 @@ class Sidebar extends React.Component {
 
           <div class="sidenav-header-inner text-center">
              <img src="img/avatar-1.png" alt="person" class="img-fluid rounded-circle" />
-            <h2 class="h5">Navjot Singh</h2><span>Project Atchitect</span>
+            <h2 class="h5">Navjot Singh</h2><span>Project Architect</span>
           </div>
           <div class="sidenav-header-logo"><a href="index.html" class="brand-small text-center"> <strong>B</strong><strong class="text-primary">D</strong></a></div>
         </div>
@@ -26,7 +26,7 @@ class Sidebar extends React.Component {
               <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
                 <li><Link to="/Student_list">Student</Link></li>
                 <li><Link to="/Teacher_list">Teacher</Link></li>
-                <li><Link to="/Principal">Principal</Link></li>
+                <li><Link to="/Principal_list">Principal</Link></li>
               </ul>
             </li>
             <li><a href="/UserManagement"> <i class="icon-form"></i>Transport Management                             </a></li>
