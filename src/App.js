@@ -10,6 +10,8 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Dashboard from "./containers/Dashboard"
 import StudentForm from "./containers/UserManagement/Student/StudentForm"
 import StudentList from "./containers/UserManagement/Student/StudentList"
+import TeacherList from "./containers/UserManagement/Teacher/TeacherList"
+
 
 class App extends Component {
   render() {
@@ -26,12 +28,13 @@ class App extends Component {
                 <Route exact path='/'                component={Dashboard} />
                 <Route exact path='/Student_list'    component={StudentList} />
                 <Route exact path='/Student_form'    component={StudentForm} />
+                <Route exact path='/Teacher_list'    component={TeacherList} />
               </Switch>
             </div>
             <Footer />
           </div>
         </div>
-      
+
       </Router>
 
 

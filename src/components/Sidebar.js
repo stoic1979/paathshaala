@@ -5,7 +5,7 @@ class Sidebar extends React.Component {
   render() {
 
     return (
-     <div> 	
+     <div>
       <nav class="side-navbar">
        <div class="side-navbar-wrapper">
 
@@ -20,12 +20,12 @@ class Sidebar extends React.Component {
 
         <div class="main-menu">
           <h5 class="sidenav-heading">Main</h5>
-          <ul id="side-main-menu" class="side-menu list-unstyled">                  
+          <ul id="side-main-menu" class="side-menu list-unstyled">
             <li><Link to="/"> <i class="icon-home"></i>Dashboard                             </Link></li>
             <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>User Management</a>
               <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
                 <li><Link to="/Student_list">Student</Link></li>
-                <li><Link to="/Teacher">Teacher</Link></li>
+                <li><Link to="/Teacher_list">Teacher</Link></li>
                 <li><Link to="/Principal">Principal</Link></li>
               </ul>
             </li>
@@ -37,7 +37,7 @@ class Sidebar extends React.Component {
         </div>
         <div class="admin-menu">
           <h5 class="sidenav-heading">Options</h5>
-          <ul id="side-admin-menu" class="side-menu list-unstyled"> 
+          <ul id="side-admin-menu" class="side-menu list-unstyled">
             <li> <a href="#"> <i class="icon-flask"> </i>Settings</a></li>
             <li> <a href=""> <i class="icon-flask"> </i>Profile</a></li>
             <li> <a href=""> <i class="icon-picture"> </i>Logout</a></li>
