@@ -13,6 +13,7 @@ import StudentList from "./containers/UserManagement/Student/StudentList"
 import TeacherList from "./containers/UserManagement/Teacher/TeacherList"
 import TeacherForm from "./containers/UserManagement/Teacher/TeacherForm"
 import PrincipalForm from "./containers/UserManagement/Principal/PrincipalForm"
+import PrincipalList from "./containers/UserManagement/Principal/PrincipalList"
 
 
 class App extends Component {
@@ -32,7 +33,7 @@ class App extends Component {
                 <Route exact path='/Student_form'    component={StudentForm} />
                 <Route exact path='/Teacher_list'    component={TeacherList} />
                 <Route exact path='/Teacher_form'    component={TeacherForm} />
-                <Route exact path='/Principal_list'  component={PrincipalForm} />
+                <Route exact path='/Principal_list'  component={PrincipalList} />
                 <Route exact path='/Principal_form'  component={PrincipalForm} />
               </Switch>
             </div>
