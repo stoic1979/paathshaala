@@ -27,6 +27,10 @@ class Sidebar extends React.Component {
                 <li><Link to="/Student_list">Student</Link></li>
                 <li><Link to="/Teacher_list">Teacher</Link></li>
                 <li><Link to="/Principal_list">Principal</Link></li>
+                <li><Link to="/TransportManager_list">Transport Manager</Link></li>
+                <li><Link to="/FinanceManager_list">Finance Manager</Link></li>
+                <li><Link to="/Counsellor_list">Counsellor</Link></li>
+                
               </ul>
             </li>
             <li><a href="/UserManagement"> <i class="icon-form"></i>Transport Management                             </a></li>
